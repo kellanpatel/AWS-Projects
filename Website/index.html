@@ -1,16 +1,52 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Kellan's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS CI/CD Deployment Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0073bb, #00b8a9);
+      color: white;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      max-width: 600px;
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+    .tag {
+      background: rgba(255,255,255,0.2);
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
 </head>
 <body>
-
-<h1>Welcome to my Portfolio</h1>
-<p>Here you will see a variety of content that will hopefully keep you entertained!</p>
-<a href="https://www.w3schools.com/Html/html_basic.asp">Where I get my information from</a><br>
-<img src="https://www.manchestercity.com/meta/og-image.jpg" alt="Manchester City Logo"  width="500" height="600"> <br>
-<a href="https://www.mancity.com/">Manchester City Website</a><br>
-<p>This is the new pushed change</p>
-
-
+  <h1>🚀 AWS CI/CD Website Deployment</h1>
+  <p>This static website is automatically deployed using <strong>GitHub → AWS CodePipeline → S3 → CloudFront</strong>.</p>
+  <p>Any changes pushed from Visual Studio to GitHub trigger an automatic update here on AWS.</p>
+  <div class="tag">Deployed via CodePipeline ✅</div>
+  <footer>Built by Kellan Patel | Hosted on AWS</footer>
 </body>
 </html>
