@@ -29,7 +29,7 @@ Whenever code is pushed from **Visual Studio** to GitHub, AWS automatically upda
 3. AWS CodePipeline detects the update and deploys automatically to S3.  
 4. CloudFront refreshes the cached version and serves the latest site globally.
 
-🔗 **Live Website:** https://kellan-portfolio.s3.eu-north-1.amazonaws.com/Website/index.html
+🔗 **Live Website:** [https://kellan-portfolio.s3.eu-north-1.amazonaws.com/Website/index.html](https://kellan-portfolio.s3.eu-north-1.amazonaws.com/Website/index.html)
 🔗 **Code Folder:** [`/Website`](./Website)
 
 ---
